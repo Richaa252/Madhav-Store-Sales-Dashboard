@@ -1,44 +1,38 @@
  Madhav Store Sales Dashboard
 
-Overview
-
-The Madhav Store Sales Dashboard is an interactive Power BI project designed to analyze and monitor the sales performance of an e-commerce business across India.
-The dashboard provides valuable insights into sales, profit, customer behavior, product categories, payment methods, and regional performance to support data-driven
-decision-making.
+ Overview
+The **Madhav Store Sales Dashboard** is an interactive Power BI project designed to analyze and monitor the sales performance of an e-commerce business across India. The dashboard provides insights into sales, profit, customer behavior, product categories, payment methods, and regional performance to support data-driven decision-making.
 
 
 
  Objective
-
-Develop an interactive Power BI dashboard to track and analyze Madhav Store's online sales performance across India and identify key business trends.
+Develop an interactive Power BI dashboard to track and analyze Madhav Store's online sales across India.
 
 
 
  Tools & Technologies
-
 - Power BI
-- Microsoft Excel (CSV)
 - DAX (Data Analysis Expressions)
-- Data Cleaning & Transformation
+- Microsoft Excel (CSV)
+- Data Cleaning
 - Data Visualization
 
 
 
  Dataset
-
-The project uses two CSV files:
-
 - Orders.csv
-- Details.csv
+- Dataset.csv
 
 
 
  Dashboard Features
-
-- KPI Cards (Total Sales, Total Profit, Total Quantity, Average Order Value)
-- Sales Analysis by State
-- Sales Analysis by Customer
-- Category-wise Sales Distribution
+- Total Sales Amount
+- Total Profit
+- Total Quantity Sold
+- Average Order Value (AOV)
+- Sales by State
+- Sales by Customer
+- Category-wise Sales Analysis
 - Payment Mode Analysis
 - Monthly Profit Analysis
 - Profit by Sub-Category
@@ -46,48 +40,34 @@ The project uses two CSV files:
 
 
 
- Key Insights
+ Dashboard Preview
 
+![Dashboard](Dashboard.png)
+
+
+Key Insights
 - Maharashtra recorded the highest sales.
-- Clothing contributed the largest share of total sales.
+- Clothing contributed the highest sales.
 - Cash on Delivery (COD) was the most preferred payment method.
 - Tables and Bookcases generated the highest profit.
-- Sales performance varied across different months and product categories.
-
----
-
-Dashboard Preview
-
-"Dashboard" (Images/Dashboard.png)
+- The dashboard enables quick business performance analysis using interactive visualizations.
 
 
 
- Project Structure
-
-Madhav-Store-Sales-Dashboard
-│
-├── Dashboard
-│   └── Madhav_Store_Dashboard.pbix
-│
-├── Dataset
-│   ├── Orders.csv
-│   └── Details.csv
-│
-├── Images
-│   └── Dashboard.png
-│
-└── README.md
+ Repository Contents
+- `Madhav_Store_Dashboard.pbix` – Power BI Dashboard
+- `Orders.csv` – Orders Dataset
+- `Dataset.csv` – Sales Dataset
+- `Dashboard.png` – Dashboard Screenshot
 
 
 
-Future Improvements
-
+ Future Improvements
 - Add year-wise sales comparison.
 - Build customer segmentation analysis.
 - Create sales forecasting using Power BI.
 - Connect the dashboard to a live database.
 
 
- Author
-
+Author
 Richa Mishra
